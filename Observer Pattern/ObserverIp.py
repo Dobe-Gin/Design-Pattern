@@ -80,7 +80,7 @@ class LoginIpChecker(Observer):
                 print(f"第一次登录，ip为{observable.get_cur_ip}，需要进行验证")
                 self._ip_list.append(observable.get_cur_ip)
             else:
-                print(f"登录成功")
+                print("登录成功")
 
 
 if __name__ == '__main__':
